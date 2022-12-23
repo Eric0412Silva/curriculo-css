@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&family=Kanit:wght@300;600;800&family=Montserrat:wght@300;400;600;800&family=Poppins:wght@300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+
+header {
+    display: flex;
+    min-height: 40vh;
+    align-items: center;
+    background: linear-gradient(to top, rgb(2, 37, 90), rgb(2, 54, 61));
+    justify-content: flex-end;
+    color: white;
+}
+
+header .name-and-job{
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+header .name-and-job h1{
+    width: 80%;
+    font: normal normal 800 4rem/4rem montserrat;
+}
+
+header .name-and-job p{
+    font: normal normal 400 1.5rem/1.5rem montserrat;
+}
+
+main {
+    display: flex;
+    background-color: rgb(240, 240, 240);
+}
+aside {
+    margin-top: -10rem;
+    margin-left: 5rem;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25vw;
+    background: linear-gradient(to top, rgb(2, 37, 90), rgb(2, 95, 107));
+    gap: 2rem;
+}
+
+aside figure{
+    margin-top: -5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside figure img{
+    border: 0.4rem solid white;
+    height: 35vh;
+    width: 10rem;
+}
+
+aside article {
+    width: 80%;
+    color: rgb(255, 247, 246);
+}
+
+aside article:last-child {
+    padding-bottom: 3rem;
+}
+aside article h2 {
+    color: rgb(223, 223, 223);
+    font: normal normal 800 1.3rem montserrat;
+}
+
+aside article:nth-child(2) p {
+    font-weight: 600;
+}
+
+aside article ul {
+    list-style-type: none;
+}
+aside article li {
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+aside article ul li a {
+    color: rgb(255, 247, 246);
+}
+
+section {
+    padding-top: 3rem;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+section article {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+section article h2 {
+    color: rgb(255, 247, 246);
+    background: linear-gradient(to top, rgb(2, 37, 90), rgb(2, 95, 107));
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    font: normal normal 800 1.3rem montserrat;
+}
+
+section article .goals{
+    margin-bottom: 2rem;
+}
+
+section article .goals h3{
+    color: rgb(92, 72, 72);
+    margin-bottom: 0.3rem;
+}
+section article .educational-formation{
+    margin-bottom: 2rem;
+}
+
+section article .educational-formation h3{
+    color: rgb(92, 72, 72);
+    margin-bottom: 0.3rem;
+}
+
+section article .works{
+    margin-bottom: 2rem;
+}
+
+section article .works h3{
+    color: rgb(92, 72, 72);
+    margin-bottom: 0.3rem;
+}
+
+section article .qualifications{
+    margin-bottom: 2rem;
+}
+
+section article .qualifications h3{
+    color: rgb(92, 72, 72);
+    margin-bottom: 0.3rem;
+}
+
+section article ul {
+    list-style-type: none;
+}
+
+section article:last-child {
+    margin-bottom: 4rem;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
